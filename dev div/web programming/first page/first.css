@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.startbutton{
+    border: none;
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+button span:first-child{
+    width: 0;
+}
+button span:nth-child(2){
+    height: 0;
+}
+button span:nth-child(3){
+    width: 0;
+}
+button span:last-child{
+    height: 0;
+}
+button:first-child:hover span:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1c88ee;
+    height: 2px;
+    width: 100%;
+    transition: 1s;
+    box-shadow: 0 0 5px #1c88ee;
+}
+button:first-child:hover span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1c88ee;
+    width: 2px;
+    height: 100%;
+    transition: 1s;
+    box-shadow: 0 0 5px #1c88ee
+}
+button:first-child:hover span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1c88ee;
+    height: 2px;
+    width: 100%;
+    transition: 1s;
+    box-shadow: 0 0 5px #1c88ee
+}
+button:first-child:hover span:last-child{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1c88ee;
+    width: 2px;
+    height: 100%;
+    transition: 1s;
+    
+}
+button:hover{
+    background-color: #1c88ee;
+    box-shadow: 0 0 5px #1c88ee
+    0 0 25px #1c88ee
+    0 0 50px #1c88ee
+    0 0 200px #1c88ee;
+    transition-delay: 1s;
+    color: black;
+    
+}
+.firstimg{
+    float: left;
+    margin-left: 120px;
+}
+.secondimg{
+    float: right;
+    margin-right: 110px;
+}
+
+
+  
+
+.x{
+    margin-left: -100%;
+    transition: 2s;
+}
+.y{
+    margin-right: 100%;
+    transition: 2s;
+}
+
+
+
+/**
+
+    dissapear
+
+.x{
+    opacity: 0;
+    transition: 2s;
+}
+.y{
+    opacity: 0;
+    transition: 2s;
+}
+
+
+**/
+
+/**
+
+    to the top
+
+.x{
+    margin-top: -100%;
+    transition: 2s;
+}
+.y{
+    margin-top: -100%;
+    transition: 2s;
+}
+**/
+
+.change{
+    visibility: hidden;
+}
